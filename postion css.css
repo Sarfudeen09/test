@@ -1,0 +1,28 @@
+.relative-example
+{
+    position: relative;
+    top: 100px;
+    left:30px;
+    background-color:#ff0000;
+    padding:20px;
+}
+
+.absolute-example {
+    position: absolute;
+    top: 100px;
+    right:20px;
+    background-color:#ff0000;
+    color:aliceblue;
+    padding:20px;
+}
+
+.fixed-example {
+    position: fixed;
+   bottom: 0;
+    right:0;
+    background-color:#fffb00;
+    color:aliceblue;
+    padding:20px;
+}
+
+

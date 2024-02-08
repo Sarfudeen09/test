@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #106d03;
+    margin: 10;
+    padding: 10;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.example-div {
+    background-color: #66eb66;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(8, 255, 49);
+}
+label { 
+    display:flex;
+    margin:10px;
+}
+
+
+ .row {
+    width:100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}

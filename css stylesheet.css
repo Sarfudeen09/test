@@ -1,0 +1,34 @@
+p{
+    color:#17781F;
+    color: yellow;
+    color:rgba(115,0,151,0.925);
+    color:hs1()
+ }
+ body {
+        background-color:#17781F;
+        background-image:url("https://picsum.photos/seed/picsum/200/300");
+        background-repeat:no-repeat;
+        background-position: right top;
+        background-attachment: scroll;
+
+ }
+ #article {
+    font-family: 'Honk', system-ui;
+    font-size: 16px;
+    font-weight:lighter;
+    font-style:italic;
+    line-height:normal;
+    word-spacing:normal;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+h4{font-family: 'Honk', system-ui;} 
+
+ .highlight{color:chartreuse;}
+
+ #highlight{color:blueviolet}
+ article p {font-style:italic;}
+ nav > ul{color:brown;}
+ h2+p {color:fuchsia;}
+ h3~p {color:brown}

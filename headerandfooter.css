@@ -1,0 +1,53 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    grid-template-columns: auto 1fr; 
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer, aside, .container {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+header, footer {
+    grid-column: span 2;
+    background-color: blue;
+    text-align: center;
+}
+
+aside {
+    grid-row: span 2; 
+    background-color: crimson;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+    padding: 20px;
+   
+}
+
+.item{
+    background-color: blueviolet;
+    color: black;
+    text-align: center;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.item1{
+    background-color: blueviolet;
+    color: black;
+    text-align: center;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: span 2;
+
+    
+}

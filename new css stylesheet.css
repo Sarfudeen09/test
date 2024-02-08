@@ -1,0 +1,58 @@
+.example-div {
+    height:500px;
+    width:600px;
+    background-color:chartreuse;
+    min-width:350px;
+    max-width:600px;
+    min-height:200px;
+    max-height:500px;
+    border-style:solid;
+    border-color:darkgreen;
+    border-width:5px;
+    border-radius: 20px;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-right:0px;
+    margin-left:0px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    overflow: hidden;
+    overflow: scroll;
+
+}
+.block-example {
+    background-color: #66eb66;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+}
+.inline-example {
+    background-color: #ff0000;
+    margin-bottom: 10px;
+    padding: 10px;
+    display:inline;
+}
+.inline-block-example{
+    background-color: #3900a3;
+    margin-bottom: 10px;
+    padding: 10px;
+    display:inline-block;
+}
+
+.float-right{
+    float: left;
+    width: 25%;
+    background-color:#66eb66;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.float-left{
+    float: right;
+    width: 75%;
+    background-color:#ff0000;
+    padding: 20px;
+    box-sizing: border-box;
+}

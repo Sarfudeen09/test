@@ -1,0 +1,93 @@
+nav {
+    background-color: #1eff00;
+    padding: 20px;
+   overflow:hidden;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+.logo {
+    float: left;
+    color: crimson;
+    padding: 10px;
+    width:50px;
+    height:50px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    align-content: center;
+    display:inline-table;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.example-div {
+    height:500px;
+    width:600px;
+    background-color:chartreuse;
+    min-width:350px;
+    max-width:600px;
+    min-height:200px;
+    max-height:500px;
+    border-style:solid;
+    border-color:darkgreen;
+    border-width:5px;
+    border-radius: 20px;
+    margin-top:10px;
+    margin-bottom:100px;
+    margin-right:0px;
+    margin-left:0px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    overflow: hidden;
+    
+}
